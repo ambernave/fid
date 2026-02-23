@@ -80,7 +80,20 @@ img.icon {
   height: 20px;
   margin-right: 1em;
 }
-
+.button-links {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+.button-links li {
+	margin: 8px 0;
+}
+.button-links a:visited {
+	color: floralwhite;
+}
+.button-links a:hover {
+	
+	
 </style>
 </head>
 
@@ -112,23 +125,27 @@ img.icon {
 <br>
 <p>People who know me know that I love to cook. I’ve created this site to share some of my favorite recipes and online food resources. <i>Bon Appetit!</i> </p>
 <br>
-
+<section>
 <h3>From Jen’s cookbook</h3>
-<ul>
+<ul class="button-links">
   <li><a href="recipes/tapenade.html">Tapenade (Olive Spread)</a></li>
   <li><a href="recipes/salmon.html">Garlic Salmon</a></li>
   <li><a href="recipes/pasta/linguine.html">Linguine with Clam Sauce</a></li>
   <li><a href="recipes/pasta/couscous.html">Couscous with Peas and Mint</a></li>
 </ul>
+</section>
 <br>
+	<section>
 <h3>Good food resources</h3>
-<ul>
+<ul class="button-links">
   <li><a href="https://www.foodnetwork.com/" target="_blank">The Food Network</a></li>
   <li><a href="https://www.epicurious.com/" target="_blank">Epicurious</a></li>
 </ul>
+	</section>
 <br>
 <br>
 <p><img src="images/spoon.gif" alt="red spoon" class="icon"><a href="about.html" style="color: aqua">About this site</a></p>
 
 </body>
+
 </html>
