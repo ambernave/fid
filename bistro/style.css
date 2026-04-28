@@ -90,3 +90,15 @@ footer img {
   margin-left: 0;
   text-align: center;
 }
+a {
+  color: #92D4F4;
+  text-decoration: none;
+}
+a:visited {
+  color: #92D4F4;
+}
+a:hover {
+  color: #e3a857;
+}
+  
+
