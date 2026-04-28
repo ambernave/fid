@@ -90,6 +90,12 @@ footer img {
   margin-left: 0;
   text-align: center;
 }
+.social-links {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+}
 a {
   color: #92D4F4;
   text-decoration: none;
