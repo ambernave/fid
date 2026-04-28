@@ -13,9 +13,12 @@ text-align: center;
 padding: 12px;
 margin-bottom: 36px;
 }
-h1, h2 {
+h1, h2, h3{
   font-family: "Poppins", sans-serif;
+ 
 }
+h2, h3 {
+  color: #e3a857
 h1 {
 color: #0D1B2A;
 font-size: 2.15rem;
@@ -24,9 +27,15 @@ text-transform: uppercase;
 letter-spacing: 4px;
 margin: 0;
 }
-h2 {
-color: #e3a857;
+h2, {
 font-size: 1.75rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+}
+h3 {
+  font-size: 1.50rem;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 2px;
