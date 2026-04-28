@@ -84,3 +84,9 @@ footer img {
   height: auto;
   display: block;
 }
+.button-links {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+}
