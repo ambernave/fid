@@ -75,11 +75,11 @@ body {
         
     }
     .gios-img {
-              width: 70%;
-    max-width: 400px;
+              width: 40%;
+    max-width: 500px;
     height: auto;
     margin: 20px auto;
-    display: block;
+    display: inline-block;
 }
             
 video {
