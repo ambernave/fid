@@ -85,6 +85,13 @@ body {
     align-items: flex-start;
             
 }
+    .gios-img-row img {
+      width: calc(50% - 10px);
+    height: 450px;
+    object-fit: contain;
+    object-position: top;
+    margin: 0;
+}       
     .gios-img-single {
            display: block;
     max-width: 100%;
