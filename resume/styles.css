@@ -1,11 +1,16 @@
+html {
+        scroll-behavior: smooth;
+}
+
+
 body {
-        margin: 0 10%;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 1.25rem;
-        line-height: 1.65rem;
-        color: #2F4F4F;
-        background-color: aliceblue;
-        text-align: center;
+        margin: 0;
+        font-family: "Inter", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        color: #333333;
+        background-color: #f8f7f4;
+
     } 
     header {
         background-color: #2F4F4F;
@@ -15,10 +20,7 @@ body {
         margin-bottom: 40px;
     
     }
-    header:hover{
-        transform: scale(1.01);
-        transition: 0.3s ease;
-    }
+    
     h1 {
         color: aliceblue;
         font-size: 3.00rem;
@@ -47,9 +49,9 @@ body {
         margin-bottom: 30px;
     }
     p {
-        width: 70%;
+        width: 85%;
         margin: 0px auto;
-        margin-bottom: 60px;
+        margin-bottom: 35px;
         text-align: center;
     }
     
