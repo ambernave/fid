@@ -75,11 +75,15 @@ body {
         
     }
     .gios-img {
-            width: 45%;
-    height: 400px;
-    object-fit: contain;
-    vertical-align: top;
-    margin: 10px;
+           width: calc(50% - 10px);
+    height: auto;
+    margin: 0;
+
+    .gios-img-row {
+             display: flex;
+    gap: 20px;
+    align-items: flex-start;
+            
 }
             
 video {
